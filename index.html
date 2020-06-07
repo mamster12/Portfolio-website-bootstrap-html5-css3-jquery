@@ -1,382 +1,652 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-BTX4EQ1YVG"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta name="description"
-        content="Hi! My name is Mark Anthony Villegas, you can call me Mac. My career began in Makati City as a Production/Service Engineer for Sharp Copiers, and currently working as an IT Assistant in a Korean English Learning Company. I am studying web development thru online courses and crash courses for the past 4 years.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendors/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./vendors/css/normalize.css">
-    <link rel="stylesheet" href="./vendors/css/animate.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./resources/css/queries.css">
-    <link rel="stylesheet" href="./resources/css/style.css">
-    <title>Mac Villegas</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./resources/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./resources/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="./resources/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="./resources/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="./resources/img/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./resources/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-</head>
+            gtag('config', 'G-BTX4EQ1YVG');
+        </script>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+        <meta
+            name="description"
+            content="Hi! My name is Mark Anthony Villegas, you can call me Mac. My career began in Makati City as a Production/Service Engineer for Sharp Copiers, and currently working as an IT Assistant in a Korean English Learning Company. I am studying web development thru online courses and crash courses for the past 4 years."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./vendors/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./vendors/css/normalize.css" />
+        <link rel="stylesheet" href="./vendors/css/animate.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="./resources/css/queries.css" />
+        <link rel="stylesheet" href="./resources/css/style.css" />
+        <title>Mac Villegas</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./resources/img/favicons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./resources/img/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./resources/img/favicons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./resources/img/favicons/site.webmanifest" />
+        <link
+            rel="mask-icon"
+            href="./resources/img/favicons/safari-pinned-tab.svg"
+            color="#5bbad5"
+        />
+        <link rel="shortcut icon" href="./resources/img/favicons/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta
+            name="msapplication-config"
+            content="./resources/img/favicons/browserconfig.xml"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
 
-<body>
-
-    <!-- preloader -->
-    <div class="preloader" id="home">
-        <img class="sharingan rotate-center" src="./resources/img/Sharingan_triple.svg" alt="sharingan">
-    </div>
-
-    <header id="main">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container container-sm mx-auto nav-container">
-                <!-- Content here -->
-                <a class="navbar-brand logo" href="#">MCV</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav main-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aboutme" id="about-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link proj" href="#projects" id="projects-link">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills" id="skills-link">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact" id="contact-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container hero">
-            <div class="hero-text-box">
-                <h1 class="js--1">Mac Villegas</h1>
-                <div class="hero-h6 js--2">
-                    <p>IT <span>|</span> DEVELOPER</p>
-                    <p>DESIGNER <span>|</span> CREATOR</p>
-                </div>
-                <a href="#aboutme" class="btn-about btn btn-outline-info js--3">DISCOVER MORE ABOUT
-                    ME</a>
-            </div>
-            <div class="image">
-                <img class="js--4" src="./resources/img/mac.png" alt="me">
-            </div>
+    <body>
+        <!-- preloader -->
+        <div class="preloader" id="home">
+            <img
+                class="sharingan rotate-center"
+                src="./resources/img/Sharingan_triple.svg"
+                alt="sharingan"
+            />
         </div>
 
-    </header>
-    <!-- about section -->
-    <section class="section-about js-section-about" id="aboutme">
-        <div class="container container-xl container-lg container-md container-sm">
-            <h2>About Mac</h2>
-            <h3 class="js--5">My career began in Makati City as a Production/Service Engineer for Sharp Copiers, and
-                currently working
-                as an IT Assistant in a Korean English Learning Company. I am studying web development thru online
-                courses and crash courses for the past 4 years. <br />I wonder what’s next...
-            </h3>
-
-            <div class="more-info row js--6">
-                <div class="col-lg">
-                    <p>
-                        I studied in University of Pangasinan with the degree of BS Computer Engineering. I work as a
-                        Student Assistant in the school's ITS Department before I graduated. It gave me some good
-                        headstart in the IT industry.
-                    </p>
+        <header id="main">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container container-sm mx-auto nav-container">
+                    <!-- Content here -->
+                    <a class="navbar-brand logo" href="#">MCV</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav main-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#aboutme"
+                                    id="about-link"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link proj"
+                                    href="#projects"
+                                    id="projects-link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#skills"
+                                    id="skills-link"
+                                    >Skills</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#contact"
+                                    id="contact-link"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg">
-                    <p>
-                        After I graduated, I moved to Manila to find work and get my first Job as a Production/ Service
-                        Engineer for Multi-Function Printers/Copiers. 2 years later, I made a career move and dared to
-                        enter the IT world.
-                    </p>
+            </nav>
+            <div class="container hero">
+                <div class="hero-text-box">
+                    <h1 class="js--1">Mac Villegas</h1>
+                    <div class="hero-h6 js--2">
+                        <p>IT <span>|</span> DEVELOPER</p>
+                        <p>DESIGNER <span>|</span> CREATOR</p>
+                    </div>
+                    <a
+                        href="#aboutme"
+                        class="btn-about btn btn-outline-info js--3"
+                        >DISCOVER MORE ABOUT ME</a
+                    >
                 </div>
-                <div class="col-lg">
-                    <p>
-                        Being an IT assistant, I was able to explore more of the current technology. I also enjoy
-                        graphic designing works. I got Interested to web design and web development and began studying
-                        since then.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-    <!-- animation section -->
-    <section class="animation">
-        <h4>Scroll to help the ninja escape!</h4>
-        <img class="animate1 ninja" src="./resources/img/ninja2.gif" alt="ninja">
-        <img class="animate1 snake" src="./resources/img/snake-crawl.gif" alt="snake">
-    </section>
-
-    <section class="section-projects" id="projects">
-        <div class="container container-xl container-lg container-md container-sm">
-            <h2>Projects</h2>
-            <h3>Personal and Online Courses Projects</h3>
-        </div>
-        <div class="container-fluid projects-container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 img-container position-relative">
-                    <a href="http://www.westories.life" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj1.JPG" alt="project1">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                NodeJS / Express / MongoDB / Materialize
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://omnifood-kitchen.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj2.JPG" alt="project2">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                HTML5 / CSS3 / Jquery
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://laptopsales.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj3.JPG" alt="project3">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                NodeJS / HTML5 / CSS3
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://dev-connector-mac.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj4.JPG" alt="project4">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                MongoDB / Express / ReactJS / NodeJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://forkify-hub.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj5.JPG" alt="project5">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                VanillaJS / Webpack / Babel
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://webudget.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj6.JPG" alt="project6">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                HTML5 / CSS3 / VanillaJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://dice-it-nice.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj7.JPG" alt="project7">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                HTML5 / CSS3 / VanillaJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://mcv-clothing.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj8.JPG" alt="project8">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                Firebase / Express / ReactJS / NodeJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://mamster12.github.io/monsters-relodex-react/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj9.JPG" alt="project9">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                ReactJS / NodeJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="http://contactkeeperwebapp.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj10.JPG" alt="project10">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                MongoDB / Express / ReactJS / NodeJS / Bootstrap
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://githubfindermac.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj11.JPG" alt="project11">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                NodeJS / ReactJS
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://vidjotmac.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj12.JPG" alt="project12">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                NodeJS / Express / MongoDB / Bootstrap
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="http://yelpcampmac.herokuapp.com/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj13.JPG" alt="project13">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                NodeJS / Express / MongoDB / Bootstrap
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 img-container">
-                    <a href="https://rgb-color-play.netlify.app/" target="_blank">
-                        <img class="project-img img-fluid" src="./resources/img/proj14.JPG" alt="project14">
-                        <div class="proj-desc">
-                            <p class="align-middle">
-                                HTML5 / CSS3 / VanillaJS
-                            </p>
-                        </div>
-                    </a>
+                <div class="image">
+                    <img class="js--4" src="./resources/img/mac.png" alt="me" />
                 </div>
             </div>
-        </div>
-    </section>
-    <div class="clearfix"></div>
-    <!-- skills section -->
-    <section class="section-skills js-section-skills" id="skills">
-        <div class="container container-xl container-lg container-md container-sm">
-            <h2>Skills</h2>
-            <h3>Technologies that I learned and used from Project Courses and personal projects.</h3>
-            <div class="skill-category js--7">
+        </header>
+        <!-- about section -->
+        <section class="section-about js-section-about" id="aboutme">
+            <div
+                class="container container-xl container-lg container-md container-sm"
+            >
+                <h2>About Mac</h2>
+                <h3 class="js--5">
+                    My career began in Makati City as a Production/Service
+                    Engineer for Sharp Copiers, and currently working as an IT
+                    Assistant in a Korean English Learning Company. I am
+                    studying web development thru online courses and crash
+                    courses for the past 4 years. <br />I wonder what’s next...
+                </h3>
+
+                <div class="more-info row js--6">
+                    <div class="col-lg">
+                        <p>
+                            I studied in University of Pangasinan with the
+                            degree of BS Computer Engineering. I work as a
+                            Student Assistant in the school's ITS Department
+                            before I graduated. It gave me some good headstart
+                            in the IT industry.
+                        </p>
+                    </div>
+                    <div class="col-lg">
+                        <p>
+                            After I graduated, I moved to Manila to find work
+                            and get my first Job as a Production/ Service
+                            Engineer for Multi-Function Printers/Copiers. 2
+                            years later, I made a career move and dared to enter
+                            the IT world.
+                        </p>
+                    </div>
+                    <div class="col-lg">
+                        <p>
+                            Being an IT assistant, I was able to explore more of
+                            the current technology. I also enjoy graphic
+                            designing works. I got Interested to web design and
+                            web development and began studying since then.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- animation section -->
+        <section class="animation">
+            <h4>Scroll to help the ninja escape!</h4>
+            <img
+                class="animate1 ninja"
+                src="./resources/img/ninja2.gif"
+                alt="ninja"
+            />
+            <img
+                class="animate1 snake"
+                src="./resources/img/snake-crawl.gif"
+                alt="snake"
+            />
+        </section>
+
+        <section class="section-projects" id="projects">
+            <div
+                class="container container-xl container-lg container-md container-sm"
+            >
+                <h2>Projects</h2>
+                <h3>Personal and Online Courses Projects</h3>
+            </div>
+            <div class="container-fluid projects-container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="container-fluid front-end skill-cat-container">
-                            <h5>Front-end Technologies</h5>
-                            <div class="tech-img d-flex justify-content-around flex-wrap">
-                                <img src="./resources/img/skills_logo/html5.png" alt="html5">
-                                <img src="./resources/img/skills_logo/css3.png" alt="css3">
-                                <img src="./resources/img/skills_logo/js.png" alt="js">
-                                <img src="./resources/img/skills_logo/jquery.png" alt="jquery">
-                                <img src="./resources/img/skills_logo/sass.png" alt="sass">
-                                <img src="./resources/img/skills_logo/react.png" alt="reactjs">
-                                <img src="./resources/img/skills_logo/webpack.png" alt="webpack">
-                                <img src="./resources/img/skills_logo/babel.png" alt="babel">
-                                <img src="./resources/img/skills_logo/git.png" alt="git">
+                    <div
+                        class="col-lg-4 col-md-6 img-container position-relative"
+                    >
+                        <a href="http://www.westories.life" target="_blank">
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj1.JPG"
+                                alt="project1"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    NodeJS / Express / MongoDB / Materialize
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://omnifood-kitchen.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj2.JPG"
+                                alt="project2"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    HTML5 / CSS3 / Jquery
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://laptopsales.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj3.JPG"
+                                alt="project3"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    NodeJS / HTML5 / CSS3
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://dev-connector-mac.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj4.JPG"
+                                alt="project4"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    MongoDB / Express / ReactJS / NodeJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://forkify-hub.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj5.JPG"
+                                alt="project5"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    VanillaJS / Webpack / Babel
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a href="https://webudget.netlify.app/" target="_blank">
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj6.JPG"
+                                alt="project6"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    HTML5 / CSS3 / VanillaJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://dice-it-nice.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj7.JPG"
+                                alt="project7"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    HTML5 / CSS3 / VanillaJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://mcv-clothing.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj8.JPG"
+                                alt="project8"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    Firebase / Express / ReactJS / NodeJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://mamster12.github.io/monsters-relodex-react/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj9.JPG"
+                                alt="project9"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    ReactJS / NodeJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="http://contactkeeperwebapp.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj10.JPG"
+                                alt="project10"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    MongoDB / Express / ReactJS / NodeJS /
+                                    Bootstrap
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://githubfindermac.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj11.JPG"
+                                alt="project11"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    NodeJS / ReactJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://vidjotmac.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj12.JPG"
+                                alt="project12"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    NodeJS / Express / MongoDB / Bootstrap
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="http://yelpcampmac.herokuapp.com/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj13.JPG"
+                                alt="project13"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    NodeJS / Express / MongoDB / Bootstrap
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 img-container">
+                        <a
+                            href="https://rgb-color-play.netlify.app/"
+                            target="_blank"
+                        >
+                            <img
+                                class="project-img img-fluid"
+                                src="./resources/img/proj14.JPG"
+                                alt="project14"
+                            />
+                            <div class="proj-desc">
+                                <p class="align-middle">
+                                    HTML5 / CSS3 / VanillaJS
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <!-- skills section -->
+        <section class="section-skills js-section-skills" id="skills">
+            <div
+                class="container container-xl container-lg container-md container-sm"
+            >
+                <h2>Skills</h2>
+                <h3>
+                    Technologies that I learned and used from Project Courses
+                    and personal projects.
+                </h3>
+                <div class="skill-category js--7">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div
+                                class="container-fluid front-end skill-cat-container"
+                            >
+                                <h5>Front-end Technologies</h5>
+                                <div
+                                    class="tech-img d-flex justify-content-around flex-wrap"
+                                >
+                                    <img
+                                        src="./resources/img/skills_logo/html5.png"
+                                        alt="html5"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/css3.png"
+                                        alt="css3"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/js.png"
+                                        alt="js"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/jquery.png"
+                                        alt="jquery"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/sass.png"
+                                        alt="sass"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/react.png"
+                                        alt="reactjs"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/webpack.png"
+                                        alt="webpack"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/babel.png"
+                                        alt="babel"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/git.png"
+                                        alt="git"
+                                    />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="container-fluid front-end skill-cat-container">
-                            <h5>Back-end Technologies</h5>
-                            <div class="tech-img d-flex justify-content-around flex-wrap">
-                                <img src="./resources/img/skills_logo/mongoDB.png" alt="mongoDB">
-                                <img src="./resources/img/skills_logo/firebase.png" alt="mongoDB">
-                                <img src="./resources/img/skills_logo/nodejs.png" alt="nodejs">
-                                <img src="./resources/img/skills_logo/ExpressJS.png" alt="Express">
+                        <div class="col-lg-12">
+                            <div
+                                class="container-fluid front-end skill-cat-container"
+                            >
+                                <h5>Back-end Technologies</h5>
+                                <div
+                                    class="tech-img d-flex justify-content-around flex-wrap"
+                                >
+                                    <img
+                                        src="./resources/img/skills_logo/mongoDB.png"
+                                        alt="mongoDB"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/firebase.png"
+                                        alt="mongoDB"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/nodejs.png"
+                                        alt="nodejs"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/ExpressJS.png"
+                                        alt="Express"
+                                    />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="container-fluid front-end skill-cat-container">
-                            <h5>Development Tools</h5>
-                            <div class="tech-img d-flex  justify-content-around flex-wrap">
-                                <img src="./resources/img/skills_logo/sublimetext.png" alt="mongoDB">
-                                <img src="./resources/img/skills_logo/vscode.png" alt="vscode">
-                                <img src="./resources/img/skills_logo/goormide.JPG" alt="goormide">
+                        <div class="col-lg-6">
+                            <div
+                                class="container-fluid front-end skill-cat-container"
+                            >
+                                <h5>Development Tools</h5>
+                                <div
+                                    class="tech-img d-flex justify-content-around flex-wrap"
+                                >
+                                    <img
+                                        src="./resources/img/skills_logo/sublimetext.png"
+                                        alt="mongoDB"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/vscode.png"
+                                        alt="vscode"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/goormide.JPG"
+                                        alt="goormide"
+                                    />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="container-fluid front-end skill-cat-container">
-                            <h5>Graphic Design Tools</h5>
-                            <div class="tech-img d-flex justify-content-around flex-wrap">
-                                <img src="./resources/img/skills_logo/photoshop.png" alt="photoshop">
-                                <img src="./resources/img/skills_logo/illustrator.png" alt="illustrator">
+                        <div class="col-lg-6">
+                            <div
+                                class="container-fluid front-end skill-cat-container"
+                            >
+                                <h5>Graphic Design Tools</h5>
+                                <div
+                                    class="tech-img d-flex justify-content-around flex-wrap"
+                                >
+                                    <img
+                                        src="./resources/img/skills_logo/photoshop.png"
+                                        alt="photoshop"
+                                    />
+                                    <img
+                                        src="./resources/img/skills_logo/illustrator.png"
+                                        alt="illustrator"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- contact section -->
-    <section class="section-contact" id="contact">
-        <h2>Hire Me</h2>
-        <h3>Contact Details</h3>
-        <div class="container-sm contact-details">
-            <div class="d-flex flex-column justify-content-center">
-                <div class="email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span> markbvillegas@gmail.com</span>
+        </section>
+        <!-- contact section -->
+        <section class="section-contact" id="contact">
+            <h2>Hire Me</h2>
+            <h3>Contact Details</h3>
+            <div class="container-sm contact-details">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="email">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span> markbvillegas@gmail.com</span>
+                    </div>
+                    <div class="phone">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span class="mr-5 pr-5"> +(63)9451625817</span>
+                    </div>
                 </div>
-                <div class="phone">
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <span class="mr-5 pr-5"> +(63)9451625817</span>
+                <div class="social-section">
+                    <div class="social-icons d-flex justify-content-center">
+                        <a href="https://github.com/mamster12" target="_blank"
+                            ><i class="fa fa-github" aria-hidden="true"></i
+                        ></a>
+                        <a
+                            href="https://www.instagram.com/mac.ville/"
+                            target="_blank"
+                            ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/mark-anthony-villegas-aa2a88125/"
+                            target="_blank"
+                            ><i class="fa fa-linkedin" aria-hidden="true"></i
+                        ></a>
+                        <a
+                            href="https://www.youtube.com/channel/UCHrxnz996cL_lpOfDVMqbgg?view_as=subscriber"
+                            target="_blank"
+                            ><i
+                                class="fa fa-youtube-play"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </div>
                 </div>
             </div>
-            <div class="social-section">
-                <div class="social-icons d-flex justify-content-center">
-                    <a href="https://github.com/mamster12" target="_blank"><i class="fa fa-github"
-                            aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/mac.ville/" target="_blank"><i class="fa fa-instagram"
-                            aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/mark-anthony-villegas-aa2a88125/" target="_blank"><i
-                            class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UCHrxnz996cL_lpOfDVMqbgg?view_as=subscriber"
-                        target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                </div>
+            <!-- mini footer section -->
+            <div class="footer-section">
+                <p>Designed and Developed by Mac Villegas &copy; 2020</p>
             </div>
+        </section>
 
-        </div>
-        <!-- mini footer section -->
-        <div class="footer-section">
-            <p>Designed and Developed by Mac Villegas &copy; 2020</p>
-        </div>
-    </section>
-
-    <script src="./vendors/js/jquery-3.5.1.js"></script>
-    <script src="./vendors/js/popper.min.js"></script>
-    <script src="./vendors/js/bootstrap.min.js"></script>
-    <script src="./vendors/js/jquery.waypoints.min.js"></script>
-    <script src="./vendors/js/smooth-scroll.polyfills.min.js"></script>
-    <script src="./vendors/js/ScrollMagic.min.js"></script>
-    <script src="./vendors/js/debug.addIndicators.min.js"></script>
-    <script src="./vendors//js/animation.gsap.min.js"></script>
-    <script src="./vendors/js/TweenLite.min.js"></script>
-    <script src="./vendors/js/TimelineLite.min.js"></script>
-    <script src="./vendors/js/CSSPlugin.min.js"></script>
-    <script src="./vendors/js/BezierPlugin.min.js"></script>
-    <script src="./resources/js/main.js"></script>
-</body>
-
+        <script src="./vendors/js/jquery-3.5.1.js"></script>
+        <script src="./vendors/js/popper.min.js"></script>
+        <script src="./vendors/js/bootstrap.min.js"></script>
+        <script src="./vendors/js/jquery.waypoints.min.js"></script>
+        <script src="./vendors/js/smooth-scroll.polyfills.min.js"></script>
+        <script src="./vendors/js/ScrollMagic.min.js"></script>
+        <script src="./vendors/js/debug.addIndicators.min.js"></script>
+        <script src="./vendors//js/animation.gsap.min.js"></script>
+        <script src="./vendors/js/TweenLite.min.js"></script>
+        <script src="./vendors/js/TimelineLite.min.js"></script>
+        <script src="./vendors/js/CSSPlugin.min.js"></script>
+        <script src="./vendors/js/BezierPlugin.min.js"></script>
+        <script src="./resources/js/main.js"></script>
+    </body>
 </html>
